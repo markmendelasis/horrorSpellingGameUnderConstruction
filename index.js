@@ -29,6 +29,9 @@ if (random === 1){
                 output.textContent = "Correct";
             } else {
                 output.textContent = "Wrong";
+                var scream = new Audio('scream.mp3');
+                scream.play();
+                document.querySelector("body > img ").src="black.jpg"
             }
 
         });
