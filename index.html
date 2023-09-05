@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<meta charset="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Horror Spelling Game</title>
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.cdnfonts.com/css/red-undead" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+
+                
+                
+<head>
+    <h1>Welcome to Horror Spelling Game</h1>
+    <h2>Don't be afraid if your wrong!</h2>
+</head>
+<body>
+
+    <input oninput="this.value = this.value.toUpperCase()" type="text" class="form-control form-control-lg mb-2 " placeholder="Spell it out..." id="spellSpace">
+
+    <div class="d-grid gap-2">
+        <Button class="start" id="submitButton">Submit</Button>
+
+    </div>
+    
+    <audio controls controlsList="download" style="width:100%">
+        <source src="Audio/spell1.mp3" type="audio/mpeg">
+    </audio>
+
+    <h1 id="output"></h1>
+
+    <script src="index.js"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</body>
+
+
+<footer>
+
+</footer>
